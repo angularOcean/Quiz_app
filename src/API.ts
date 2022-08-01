@@ -1,5 +1,7 @@
 import { shuffleArray } from "./utils";
 
+//This sets up the API call to opentdb.com 
+
 export type Question = {
     category: string;
     correct_answer: string;

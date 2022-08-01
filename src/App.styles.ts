@@ -2,6 +2,8 @@ import styled, {createGlobalStyle} from 'styled-components'
 
 import backgroundImage from "./images/luke-chesser.jpg"
 
+//This provides styling for the app
+
 export const GlobalStyle = createGlobalStyle`
     html {
         height: 100%;

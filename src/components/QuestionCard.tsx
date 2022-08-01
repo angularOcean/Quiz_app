@@ -1,6 +1,10 @@
 import React from "react";
 import { AnswerObject } from "../App";
 
+
+//This sts up the question card for the app
+
+
 type Props = {
     question: string;
     answers: string[];
