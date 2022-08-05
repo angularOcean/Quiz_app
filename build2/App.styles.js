@@ -1,8 +1,32 @@
-import styled, {createGlobalStyle} from 'styled-components'
-
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Wrapper = exports.GlobalStyle = void 0;
+const styled_components_1 = __importStar(require("styled-components"));
 //This provides styling for the app
-
-export const GlobalStyle = createGlobalStyle`
+exports.GlobalStyle = (0, styled_components_1.createGlobalStyle) `
     html {
         height: 90%;
 
@@ -10,7 +34,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background-color: #aaa9a9;
-        font-family: sans-serif, Helvetica;
+        font-family: Arial, Helvetica, sans-serif;
         color:#000000;
         margin: auto;
         padding: 20%;
@@ -19,10 +43,6 @@ export const GlobalStyle = createGlobalStyle`
         display: flex;
         justify-content: center;
     }
-    h3 {
-        text-align: 'center'
-    }
-
 
     nav {
         color:#030303;
@@ -48,26 +68,13 @@ export const GlobalStyle = createGlobalStyle`
             padding: 10px 10px;
         }
       }
-    }
-    button {
-        cursor: pointer;
-        font-size: 15px;
-        background: linear-gradient(180deg, #FFFFF, #9ea19d);
-        border: 6px solid #000000;
-        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0);
-        border-radius: 10px;
-        margin: 30px 0;
-        padding: 0 40px;
-      }
-
 
     *{
         box-sizing: border-box;
         font-family: sans-serif; 
     }
-`
-
-export const Wrapper = styled.div `
+`;
+exports.Wrapper = styled_components_1.default.div `
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,14 +84,14 @@ export const Wrapper = styled.div `
 
     .score {
         color: #000000;
-        font-size: 24px;
+        font-size = 4rem;
         margin: 2;
         align-items: center;
     }
 
     h1 {
-        font-family: Verdana;
-        background-image: linear-gradient(180deg, #686e00, #000000);
+        font-family: Fascinate Inline;
+        background-image: linear-gradient(180deg, #fff, #87f1ff);
         font-weight: 400;
         background-size: 100%;
         background-clip: text;
@@ -110,4 +117,4 @@ export const Wrapper = styled.div `
       .start {
         max-width: 250px;
       }
-`
+`;
