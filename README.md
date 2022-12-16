@@ -1,10 +1,26 @@
-# Getting Started with Create React App
+# Trivia Quiz Game in Typescript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://github.com/angularOcean/Quiz_app/screenshot_1.JPG)
 
-## Available Scripts
+This project is a trivia game built with Typescript, React, and the [Open Trivia Database] (https://opentdb.com/) as a way to practice Typescript as well as working with React. 
 
-In the project directory, you can run:
+
+## Description
+
+The trivia game currently defaults to 10 random questions drawn from all topics available from the Open Trivia Database.
+
+
+## Features Under Construction
+
+The options page has not been fully implemented and so the settings to change number of questions, difficulty, and topic will not work at this time. 
+
+## Requirements
+
+You must have node.js installed
+
+## Running the Quiz App
+
+Download the repository into a folder on your computer. In the project directory, you can run the following commands: 
 
 ### `npm start`
 
@@ -41,6 +57,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For more about the [Open Trivia Database API] (https://opentdb.com/api_config.php)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For more about React, check out the [React documentation](https://reactjs.org/).
