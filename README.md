@@ -2,7 +2,7 @@
 
 ![](https://github.com/angularOcean/Quiz_app/blob/master/screenshot_1.JPG)
 
-This project is a trivia game built with Typescript, React, and the [Open Trivia Database] (https://opentdb.com/) as a way to practice Typescript as well as working with React. 
+This project is a trivia game built with Typescript, React, and the [Open Trivia Database](https://opentdb.com/) as a way to practice Typescript as well as working with React. 
 
 
 ## Description
