@@ -58,7 +58,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-For more about the [Open Trivia Database API] (https://opentdb.com/api_config.php)
+For more about the [Open Trivia Database API](https://opentdb.com/api_config.php)
 
 For more about React, check out the [React documentation](https://reactjs.org/).
 
